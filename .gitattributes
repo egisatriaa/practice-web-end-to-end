@@ -1,0 +1,42 @@
+# ==============================
+# GIT ATTRIBUTES CONFIGURATION
+# Untuk proyek web (HTML, CSS, JS, SVG, PNG, dll)
+# ==============================
+
+# Gunakan LF untuk semua file teks
+* text=auto eol=lf
+
+# File khusus web (pastikan semua pakai LF)
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.svg text eol=lf
+*.xml text eol=lf
+
+# File konfigurasi juga pakai LF
+*.yml text eol=lf
+*.yaml text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+
+# File gambar & binary jangan diubah line ending-nya
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+
+# Tambahan: file OS dan IDE
+*.exe binary
+*.dll binary
+*.zip binary
+*.7z binary
+*.rar binary
+*.psd binary
